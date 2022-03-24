@@ -3,15 +3,20 @@
 @import './reset';
 @import './text';
   nav{
-      box-shadow: 0px 0.6px;
+      box-shadow: 0px 2px;
+      background-color: $bg !important;
       ul.navbar-nav{
         display: flex;
         gap: 3vw;
-        padding-left: 12vw;
+        padding-left: 10vw;
         align-self: center;
         a.nav-link{
             color: $btn1 !important;
-            font-weight: 600;
+            font-weight: 700;
+            &:hover{
+                color: $btn2 !important;
+                border-bottom: 2px solid $btn2;
+            }
         }
       }
     }  
@@ -25,13 +30,17 @@
             padding-top: 10vh;
             color: $text;
             text-align: center;
-            font-weight: 400;
+            font-weight: 600;
+
+            &:hover{
+                color: aquamarine;
+            }
         }
         h5{
             padding-top: 3vh;
             color: $text2;
             text-align: center;
-            
-
+            font-size: 18px;
+        
         }
     }
