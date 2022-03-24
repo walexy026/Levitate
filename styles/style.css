@@ -1,1 +1,41 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+nav {
+  -webkit-box-shadow: 0px 0.6px;
+          box-shadow: 0px 0.6px;
+}
+
+nav ul.navbar-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3vw;
+  padding-left: 12vw;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+nav ul.navbar-nav a.nav-link {
+  color: #030D6C !important;
+  font-weight: 600;
+}
+
+.firstSection h1 {
+  padding-top: 10vh;
+  color: #020945;
+  text-align: center;
+  font-weight: 400;
+}
+
+.firstSection h5 {
+  padding-top: 3vh;
+  color: #000000CC;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
