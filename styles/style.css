@@ -95,4 +95,19 @@ nav ul.navbar-nav a.nav-link:hover {
   font-size: xx-large;
   font-weight: 500;
 }
+
+.sectionThree h6 {
+  font-size: small;
+}
+
+.sectionFour {
+  text-align: center;
+}
+
+.sectionFour img {
+  margin: 5vh 5vh;
+  background-color: #FFA012;
+  border-radius: 50px;
+  padding: 10px;
+}
 /*# sourceMappingURL=style.css.map */
