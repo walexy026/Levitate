@@ -32,6 +32,10 @@ nav ul.navbar-nav a.nav-link:hover {
   border-bottom: 2px solid #FFA012;
 }
 
+.firstSection {
+  text-align: center;
+}
+
 .firstSection h1 {
   padding-top: 10vh;
   color: #020945;
@@ -48,5 +52,36 @@ nav ul.navbar-nav a.nav-link:hover {
   color: #000000CC;
   text-align: center;
   font-size: 18px;
+}
+
+.firstSection .button1 {
+  text-align: center;
+  padding-top: 15vh;
+}
+
+.firstSection .button1 a:first-child {
+  text-decoration: none;
+  background-color: #030D6C;
+  padding: 10px 30px;
+  color: #FFFFFF;
+  border-radius: 5px;
+  margin-right: 5vw;
+}
+
+.firstSection .button1 a:last-child {
+  text-decoration: none;
+  background-color: #FFA012;
+  border-radius: 5px;
+  color: #FFFFFF;
+  padding: 10px 40px;
+}
+
+.firstSection h2 {
+  padding-top: 10vh;
+  color: #030D6C;
+}
+
+.firstSection p {
+  color: #7D7E87;
 }
 /*# sourceMappingURL=style.css.map */

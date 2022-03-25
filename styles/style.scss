@@ -1,46 +1,76 @@
-@import './buttons';
-@import './colors';
-@import './reset';
-@import './text';
-  nav{
-      box-shadow: 0px 2px;
-      background-color: $bg !important;
-      ul.navbar-nav{
+@import "./buttons";
+@import "./colors";
+@import "./reset";
+@import "./text";
+nav {
+    box-shadow: 0px 2px;
+    background-color: $bg !important;
+    ul.navbar-nav {
         display: flex;
         gap: 3vw;
         padding-left: 10vw;
         align-self: center;
-        a.nav-link{
+        a.nav-link {
             color: $btn1 !important;
             font-weight: 700;
-            &:hover{
+            &:hover {
                 color: $btn2 !important;
                 border-bottom: 2px solid $btn2;
             }
         }
-      }
-    }  
-    
-    // .nav-item .dropdown{
-        
-    // }
-    .firstSection{
+    }
+}
 
-        h1{
-            padding-top: 10vh;
-            color: $text;
-            text-align: center;
-            font-weight: 600;
+// .nav-item .dropdown{
 
-            &:hover{
-                color: aquamarine;
-            }
+// }
+.firstSection {
+    text-align: center;
+    h1 {
+        padding-top: 10vh;
+        color: $text;
+        text-align: center;
+        font-weight: 600;
+        // padding: 78px 447px;
+        // padding-bottom: 0px;
+
+        &:hover {
+            color: aquamarine;
         }
-        h5{
-            padding-top: 3vh;
-            color: $text2;
-            text-align: center;
-            font-size: 18px;
+    }
+    h5 {
+        padding-top: 3vh;
+        color: $text2;
+        text-align: center;
+        font-size: 18px;
+    }
+    .button1 {
+        text-align: center;
+        
+        padding-top: 15vh;
+
+        a:first-child {
+            text-decoration: none;
+            background-color: $btn1;
+            padding: 10px 30px;
+            color: $bg;
+            border-radius: 5px;
+            margin-right: 5vw;
+        }
+        a:last-child {
+            text-decoration: none;
+            background-color: $btn2;
+            border-radius: 5px;
+            color: $bg;
+            padding: 10px 40px;
         
         }
     }
+    h2{
+        padding-top: 10vh;
+        color: $btn1;
+    }
+    p{
+        color: $smalltext;
+    }
+}
