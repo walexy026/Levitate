@@ -132,7 +132,32 @@ nav ul.navbar-nav a.nav-link:hover {
   text-align: center;
 }
 
-.sectionFive form input {
-  border-color: aqua;
+.sectionFive h5 {
+  font-size: 30px;
+  padding-top: 10vh;
+  color: #020945;
+}
+
+.sectionFive p {
+  display: inline;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: small;
+}
+
+footer {
+  padding-top: 10vh;
+  text-align: center;
+  background-color: #030D6C;
+  color: #FFFFFF;
+}
+
+footer li {
+  list-style: none;
+}
+
+@media screen and (max-width: 480px) {
+  .dn {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */
