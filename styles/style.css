@@ -84,4 +84,15 @@ nav ul.navbar-nav a.nav-link:hover {
 .firstSection p {
   color: #7D7E87;
 }
+
+.sectionThree {
+  background-color: #FFA012;
+  text-align: center;
+  color: #030D6C;
+}
+
+.sectionThree p {
+  font-size: xx-large;
+  font-weight: 500;
+}
 /*# sourceMappingURL=style.css.map */
