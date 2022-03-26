@@ -85,6 +85,13 @@ nav ul.navbar-nav a.nav-link:hover {
   color: #7D7E87;
 }
 
+@media screen and (max-width: 310px) {
+  .firstSection .button1 {
+    display: -ms-grid;
+    display: grid;
+  }
+}
+
 .sectionThree {
   background-color: #FFA012;
   text-align: center;
@@ -130,6 +137,17 @@ nav ul.navbar-nav a.nav-link:hover {
 
 .sectionFive {
   text-align: center;
+  padding-bottom: 10vh;
+  /* The Modal (background) */
+  /* Modal Content */
+  /* Add Animation */
+  /* The Close Button */
+}
+
+.sectionFive form button {
+  background: blue;
+  border-radius: 10px;
+  padding: 10px;
 }
 
 .sectionFive h5 {
@@ -144,11 +162,106 @@ nav ul.navbar-nav a.nav-link:hover {
   font-size: small;
 }
 
+.sectionFive .modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 50px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+.sectionFive .modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 50%;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.sectionFive .close {
+  color: white;
+  float: left;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.sectionFive .close:hover,
+.sectionFive .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.sectionFive .modal-header {
+  text-align: center;
+  background-color: white;
+  color: #030D6C;
+}
+
+.sectionFive .modal-body {
+  padding: 2px 16px;
+}
+
+.sectionFive .modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
 footer {
   padding-top: 10vh;
   text-align: center;
   background-color: #030D6C;
   color: #FFFFFF;
+  padding-bottom: 10vh;
+}
+
+footer img {
+  padding-bottom: 10vh;
 }
 
 footer li {

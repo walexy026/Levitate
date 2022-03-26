@@ -162,8 +162,31 @@
 
     <form>
       <label for="email"><b>Email Address</b></label> <br>
-      <input type="email" placeholder="Enter Email" name="email" required> <span><button>Sign In</button></span>
+      <input type="email" placeholder="Enter Email" name="email" required>
+      <button id="myBtn">Sign In</button>
 
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+      
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>Hurray!</h2>
+          </div>
+          <div class="modal-body">
+            <p>Thanks so much fo signing up for our Newsletter. 
+              We promise to keep you updated about all our products  and offers
+              </p>
+            
+          </div>
+          <!-- <div class="modal-footer">
+            <h3>Modal Footer</h3>
+          </div> -->
+        </div>
+      
+      </div>
+      
     </form>
   </div>
   <footer>
@@ -212,6 +235,7 @@
 </div>
     </div>
   </footer>
+  <script src="main.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
