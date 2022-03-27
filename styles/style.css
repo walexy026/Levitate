@@ -57,6 +57,121 @@ nav ul.navbar-nav a.nav-link:hover {
 .firstSection .button1 {
   text-align: center;
   padding-top: 15vh;
+  /* Full-width input fields */
+  /* Add a background color when the inputs get focus */
+  /* Set a style for all buttons */
+  /* Extra styles for the cancel button */
+  /* Float cancel and signup buttons and add an equal width */
+  /* Add padding to container elements */
+  /* The Modal (background) */
+  /* Modal Content/Box */
+  /* Style the horizontal ruler */
+  /* The Close Button (x) */
+  /* Clear floats */
+  /* Change styles for cancel button and signup button on extra small screens */
+}
+
+.firstSection .button1 input[type=text], .firstSection .button1 input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.firstSection .button1 input[type=text]:focus, .firstSection .button1 input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.firstSection .button1 button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.firstSection .button1 button:hover {
+  opacity: 1;
+}
+
+.firstSection .button1 .cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+.firstSection .button1 .cancelbtn, .firstSection .button1 .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+.firstSection .button1 .container {
+  padding: 16px;
+}
+
+.firstSection .button1 .modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+.firstSection .button1 .modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%;
+  /* Could be more or less, depending on screen size */
+}
+
+.firstSection .button1 hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.firstSection .button1 .close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.firstSection .button1 .close:hover,
+.firstSection .button1 .close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+.firstSection .button1 .clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 300px) {
+  .firstSection .button1 .cancelbtn, .firstSection .button1 .signupbtn {
+    width: 100%;
+  }
 }
 
 .firstSection .button1 a:first-child {
