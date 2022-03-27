@@ -6,6 +6,18 @@
   padding: 0;
 }
 
+@media screen and (max-width: 480px) {
+  .dn {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 586px) {
+  .imgFooter {
+    display: none;
+  }
+}
+
 nav {
   -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
@@ -79,7 +91,8 @@ nav ul.navbar-nav a.nav-link:hover {
   /* Change styles for span and cancel button on extra small screens */
 }
 
-.firstSection .button1 input[type=text], .firstSection .button1 input[type=password] {
+.firstSection .button1 input[type="text"],
+.firstSection .button1 input[type="password"] {
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
@@ -88,7 +101,8 @@ nav ul.navbar-nav a.nav-link:hover {
   background: #f1f1f1;
 }
 
-.firstSection .button1 input[type=text]:focus, .firstSection .button1 input[type=password]:focus {
+.firstSection .button1 input[type="text"]:focus,
+.firstSection .button1 input[type="password"]:focus {
   background-color: #ddd;
   outline: none;
 }
@@ -113,7 +127,8 @@ nav ul.navbar-nav a.nav-link:hover {
   width: 100%;
 }
 
-.firstSection .button1 .cancelbtn, .firstSection .button1 .signupbtn {
+.firstSection .button1 .cancelbtn,
+.firstSection .button1 .signupbtn {
   float: left;
 }
 
@@ -176,12 +191,14 @@ nav ul.navbar-nav a.nav-link:hover {
 }
 
 @media screen and (max-width: 300px) {
-  .firstSection .button1 .cancelbtn, .firstSection .button1 .signupbtn {
+  .firstSection .button1 .cancelbtn,
+  .firstSection .button1 .signupbtn {
     width: 100%;
   }
 }
 
-.firstSection .button1 input[type=text], .firstSection .button1 input[type=password] {
+.firstSection .button1 input[type="text"],
+.firstSection .button1 input[type="password"] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -499,9 +516,9 @@ footer li {
   list-style: none;
 }
 
-@media screen and (max-width: 480px) {
-  .dn {
-    display: none;
-  }
+footer .imgFooter {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=style.css.map */
