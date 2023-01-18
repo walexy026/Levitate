@@ -3,7 +3,7 @@
 @import "./reset";
 @import "./text";
 nav {
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.15);
   background-color: $bg !important;
   ul.navbar-nav {
     display: flex;
@@ -28,8 +28,6 @@ nav {
     color: $text;
     text-align: center;
     font-weight: 600;
-    // padding: 78px 447px;
-    // padding-bottom: 0px;
   }
   h5 {
     padding-top: 3vh;
